@@ -18,8 +18,67 @@
     width: 150px;
     height: 50px;
 }
+#down{
+    position: relative;
+    cursor: pointer;
+}
 
-a{
+#down > a{
+background-color: #282828;
+width: 300px;
+height: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 12px;
+text-decoration: none;
+color: white;
+opacity: 0;
+}
+
+
+.n1{
+    position: absolute;
+    top: 60px;
+    padding-left: 30px;
+}
+
+
+.n2{
+    padding-left: 30px;
+    position: absolute;
+    top: 160px;
+}
+
+.n1 > h2{
+    text-align: start;
+    font-size: 20px;
+}
+
+
+.n2 > h2{
+    text-align: start;
+    font-size: 20px;
+}
+
+#down:hover{
+    color: #1ed760;
+}
+
+#down:hover > a{
+    opacity: 1;
+}
+
+#down > a:hover{
+    background-color: black;
+    color: #1ed760;
+}
+
+.nav > a{
+    color: white;
+    text-decoration: none;
+}
+#down> a{
     text-decoration: none;
     color: white;
 }
@@ -27,22 +86,8 @@ a:hover{
     color: #1ed760;
     cursor: pointer;
 }
-#down{
 
-}
 
-#down > a{
-    opacity: 0;
-    visibility: hidden;
-
-}
-
-#down:hover > li{
-    opacity: 1;
-    visibility: visible;
-    color: white;
-    display: block;
-}
 .nav{
     font-size: 17px;
     width: 500px;
@@ -118,6 +163,11 @@ a:hover{
     align-items: center;
     height: 480px;
     background-color: #f8f8f8;
+    color: black;
+}
+
+.download > p > a{
+    color: black;
 }
 
 .download > img{
