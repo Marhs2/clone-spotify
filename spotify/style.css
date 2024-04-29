@@ -373,6 +373,11 @@
     text-decoration: none;
 }
 
+.rule-link  > a:hover{
+    color:  #1ed760;
+}
+
+
 .copyright{
     display: flex;
     flex-direction: column;
