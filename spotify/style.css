@@ -190,7 +190,7 @@
 }
 
 .why-use > h1{
-    font-size: 48px;
+    font-size: 48px ;
 }
 
 
@@ -297,7 +297,7 @@
 }
 
 .qna-1-1 >details>summary:hover{
-    background-color: gray;
+    background-color: #b7b7b7;
     text-decoration: underline;
 }
 
