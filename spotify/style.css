@@ -272,7 +272,14 @@
     font-size: 40px;
 }
 
+.qna-1-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .qna-1-1 >details{
+    width: 1200px;
     font-size: 25px;
     margin: 5px 100px;
     height: auto;
